@@ -45,7 +45,7 @@ Example:
     "Content-Length": "",
     "Content-Type": "text/plain",
     "Host": "127.0.0.1:8000",
-    "Connection": "keep-alive",\
+    "Connection": "keep-alive",
     "Accept": "application/json, text/plain, */*",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",7
     "Sec-Fetch-Site": "same-origin",
@@ -77,7 +77,7 @@ Example:
 
 | SELECT | INSERT | UPDATE | DELETE | TOTAL | DUPLICATES |
 |--------|--------|--------|--------|-------|------------|
-| 4      | 0      | 0      | 0      | 3     | 0          |
+| 3      | 0      | 0      | 0      | 3     | 0          |
 
 ### SQL queries execute stacktrace:
 
