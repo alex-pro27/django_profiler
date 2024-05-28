@@ -159,7 +159,7 @@ SELECT "core_user"."id", "core_user"."password", "core_user"."username", "core_u
 #### Query `3/4`Count calls: `1` Avg Duration: `0.001` sec.
 
 ```sql
-SELECT ("roles_users"."user_id") AS "_prefetch_related_val_user_id", "roles"."id", "roles."name", "roles"."code", "roles"."all_groups", "roles"."all_companies", "roles"."parent_id", "roles"."managed_by_external" FROM "roles" INNER JOIN "roles_users" ON ("roles"."id" = "roles_users"."rolesrm_id") WHERE "roles_users"."user_id" IN (%s)
+SELECT ("roles_users"."user_id") AS "_prefetch_related_val_user_id", "roles"."id", "roles"."name", "roles"."code", "roles"."all_groups", "roles"."all_companies", "roles"."parent_id", "roles"."managed_by_external" FROM "roles" INNER JOIN "roles_users" ON ("roles"."id" = "roles_users"."rolesrm_id") WHERE "roles_users"."user_id" IN (%s)
 ```
 
 ### Params:
